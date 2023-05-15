@@ -33,8 +33,11 @@
     border-radius: 10px;
     overflow: hidden;
 
+    min-height: 349px;
+
     @media (max-width: $break_sm) {
         padding: 23px 14px;
+        min-height: auto;
     }
 
     @media (max-width: $break_xs) {
