@@ -2,15 +2,15 @@
 @import "_vars";
 
 // Нормализация
-@import '_preloader';
-@import '_normalize';
+// @import '_preloader';
+// @import '_normalize';
 
 // Смартгрид и свои миксины
 // @import '_smart-grid';
 // @import '_mixins/mixins'; // свои миксины
 
 // Шрифты
-// @import "_fonts";
+@import "_fonts";
 
 // Стандартности
 // @import '_breadcrumbs'; // Постраничная навигация
@@ -18,7 +18,9 @@
 
 // Свои общие стили
 @import "_main";
-@import "_burger";
+@import "_hero";
+@import "_s02";
+// @import "_burger";
 
 
 // Стили текущего проекта

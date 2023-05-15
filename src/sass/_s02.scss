@@ -1,0 +1,26 @@
+.s02 {
+
+    .s-title {
+        max-width: 915px;
+    }
+
+}
+
+.s02-box {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.s02-item {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.s02-item__icon {
+}
+.s02-item__title {
+}
+.s02-item__descr {
+}
+.s02-item--bg {
+}
