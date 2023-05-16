@@ -8,6 +8,7 @@
     }
 
     .s-title {
+        margin-bottom: 55px;
         max-width: 915px;
     }
 
@@ -46,10 +47,10 @@
 }
 
 .s02-item__box {
-    max-width: 276px;
+
 }
 .s02-item__icon {
-    margin-bottom: 2px;
+    margin-bottom: 11px;
     width: 40px;
     height: 40px;
 
@@ -64,6 +65,7 @@
 }
 .s02-item__title {
     margin-bottom: 7px;
+    max-width: 280px;
 
     font-size: 21px;
     font-weight: 600;
@@ -74,8 +76,11 @@
     }
 }
 .s02-item__descr {
+    max-width: 240px;
+
     font-size: 16px;
     color: #707070;
+    line-height: 1.18;
 
     @media (max-width: $break_sm) {
         font-size: 14px;

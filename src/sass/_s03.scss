@@ -1,0 +1,86 @@
+.s03 {
+    padding-top: 60px;
+
+    display: flex;
+    justify-content: space-between;
+
+    .s-title {
+        margin-bottom: 43px;
+    }
+}
+.s03-col1 {
+    width: 44%;
+}
+.s03-col2 {
+    width: 56%;
+}
+.s03-box {
+    padding-left: 78px;
+    max-width: calc(1170px - 44%);
+    // overflow: hidden;
+}
+.p-0-15 {
+}
+
+.s03-list {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 64px;
+    padding: 0;
+
+    li {
+
+        &:not(:last-child) {
+            border-bottom: 1px solid #D2D2D2;
+        }
+    }
+
+    a {
+        position: relative;
+
+        display: block;
+        padding-top: 34px;
+        padding-bottom: 28px;
+        padding-right: 50px;
+
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.25;
+        color: #2D2D43;
+        text-decoration: none;
+
+        transition: .25s;
+
+        &:hover {
+            color: #7b7cff;
+        }
+
+        &:hover::after {
+            // right: 5px;
+            background-color: #7b7cff;
+
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            width: 36px;
+            height: 35px;
+            right: 0;
+            top: 50%;
+            z-index: 1;
+            transform: translateY(-50%);
+
+            border-radius: 50%;
+            background-color: #2D2D43;
+            background-image: url('../images/template/list-item-arrow.svg');
+            background-size: 16px 16px;
+            background-position: center center;
+            background-repeat: no-repeat;
+
+            transition: .25s;
+        }
+    }
+}
+.s03-btn {
+}
