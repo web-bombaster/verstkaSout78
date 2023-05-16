@@ -1,5 +1,6 @@
 .s03 {
     padding-top: 60px;
+    padding-bottom: 120px;
 
     display: flex;
     justify-content: space-between;
@@ -10,6 +11,10 @@
 }
 .s03-col1 {
     width: 44%;
+
+    img {
+        border-radius: 0px 10px 10px 0px;
+    }
 }
 .s03-col2 {
     width: 56%;
