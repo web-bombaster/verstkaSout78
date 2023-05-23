@@ -19,7 +19,7 @@
 }
 
 .hero-box {
-    max-width: 580px;
+    max-width: 630px;
 
     @media (max-width: $break_sm) {
         margin-left: auto;
@@ -45,11 +45,13 @@
     }
 }
 .hero-descr {
-    margin-bottom: 53px;
+    margin-bottom: 40px;
 
     font-weight: 500;
     font-size: 20px;
     line-height: 140%;
+
+    max-width: 550px;
 }
 .hero-btn {
 }
