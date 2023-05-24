@@ -4,8 +4,17 @@
 
     text-align: center;
 
+    @media (max-width: $break_sm) {
+        padding-top: 46px;
+        padding-bottom: 46px;
+    }
+
     .s-title {
         margin-bottom: 40px;
+
+        @media (max-width: $break_sm) {
+            margin-bottom: 29px;
+        }
     }
     .btn {
     }

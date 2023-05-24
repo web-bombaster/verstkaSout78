@@ -1,6 +1,7 @@
 
 document.addEventListener(
 	"DOMContentLoaded", () => {
+		// include './myscripts/init-slick.js'
 		// -include './myscripts/preloader.js'
 		// -include './myscripts/burger.js'
 		// -include './myscripts/form.js'

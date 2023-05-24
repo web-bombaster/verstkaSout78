@@ -1,14 +1,4 @@
-// -include './../libs/blazy.min.js'
-// -include './../libs/dynamic_adapt.js'
-// -include './../libs/swiper-bundle.min.js'
-// -include './../libs/inputmask.min.js'
-// -include './../libs/just-validate.production.min.js'
-// -include './../libs/fslightbox.js'
-
-
-document.addEventListener(
-	"DOMContentLoaded", () => {
-		if (document.querySelector('.s10-sl')) {
+if (document.querySelector('.s10-sl')) {
     $('.s10-sl').slick({
         infinite: true,
         slidesToShow: 5,
@@ -35,11 +25,4 @@ document.addEventListener(
             // instead of a settings object
         ]
     });
-};// -include './myscripts/preloader.js'
-		// -include './myscripts/burger.js'
-		// -include './myscripts/form.js'
-		// -include './myscripts/accordeon.js'
-		// -include './myscripts/initSwiper.js'
-		// -include './myscripts/blazy-init.js'
-	}
-);
+};

@@ -70,6 +70,10 @@ ul.decor {
     font-size: 18px;
     font-weight: 600;
 
+    @media (max-width: $break_sm) {
+        font-size: 16px;
+    }
+
     li {
         position: relative;
         padding-left: 34px;
@@ -101,4 +105,80 @@ ul.decor {
 
 .brs-d {
     border-radius: 30px 30px 0px 0px;
+}
+
+.section-box {
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    @media (max-width: $break_sm) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    & > * {
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.form-home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.form-home {
+    .PhoneBlock {
+        @media (max-width: $break_sm) {
+            flex-grow: 1;
+        }
+    }
+    input[type="text"] {
+        padding-left: 17px;
+        padding-right: 17px;
+
+        min-width: 277px;
+
+        background-color: #fff;
+        border-radius: 10px;
+        border: none;
+
+        height: 51px;
+
+        @media (max-width: $break_sm) {
+            min-width: auto;
+            width: 100%;
+        }
+    }
+
+    .btn {
+        padding: 15px 30px;
+
+        font-size: 18px;
+        font-weight: 600;
+        justify-content: center;
+
+        @media (max-width: $break_sm) {
+            flex-grow: 1;
+        }
+    }
+}
+
+.form-footer {
+    display: block;
+    width: 100%;
+
+    a {
+        // padding-left: 6px;
+        // padding-right: 6px;
+
+        color: #fff;
+        text-decoration: underline;
+    }
 }

@@ -1,28 +1,66 @@
 .s03 {
-    padding-top: 60px;
-    padding-bottom: 120px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+
+    @media (max-width: $break_sm) {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 
     .s-title {
         margin-bottom: 43px;
+
+        @media (max-width: $break_md) {
+            margin-bottom: 23px;
+        }
+
+        @media (max-width: $break_sm) {
+            margin-bottom: 1px;
+        }
     }
 }
 .s03-col1 {
     width: 44%;
 
+    @media (max-width: $break_sm) {
+        width: 100%;
+        margin-bottom: 29px;
+    }
+
     img {
         border-radius: 0px 10px 10px 0px;
+
+        @media (max-width: $break_sm) {
+            border-radius: 0;
+        }
     }
 }
 .s03-col2 {
     width: 56%;
+
+    @media (max-width: $break_sm) {
+        width: 100%;
+    }
 }
 .s03-box {
     padding-left: 78px;
-    max-width: calc(1170px - 44%);
-    // overflow: hidden;
+    // max-width: calc(1140px - 44%);
+    max-width: calc(1140px - (1140px * 0.42));
+    // width: 100%;
+
+    @media (max-width: $break_md) {
+        padding-left: 24px;
+    }
+
+    @media (max-width: $break_sm) {
+        padding-left: 0;
+        max-width: 100%;
+    }
 }
 .p-0-15 {
 }
@@ -32,6 +70,10 @@
     margin: 0;
     margin-bottom: 64px;
     padding: 0;
+
+    @media (max-width: $break_md) {
+        margin-bottom: 0;
+    }
 
     li {
 
@@ -55,6 +97,16 @@
         text-decoration: none;
 
         transition: .25s;
+
+        @media (max-width: $break_md) {
+            padding-top: 23px;
+            padding-bottom: 17px;
+        }
+
+        @media (max-width: $break_sm) {
+            font-size: 16px;
+            font-weight: 500;
+        }
 
         &:hover {
             color: #7b7cff;
@@ -84,8 +136,17 @@
             background-repeat: no-repeat;
 
             transition: .25s;
+
+            @media (max-width: $break_sm) {
+                height: 29px;
+                width: 29px;
+            }
         }
     }
 }
+
 .s03-btn {
+    @media (max-width: $break_md) {
+        display: none;
+    }
 }
