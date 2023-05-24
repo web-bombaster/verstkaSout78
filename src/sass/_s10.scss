@@ -9,6 +9,10 @@
 
     .s-title {
         margin-bottom: 40px;
+
+        @media (max-width: $break_sm) {
+            margin-bottom: 16px;
+        }
     }
 
     .slick-track {
@@ -28,6 +32,9 @@
 
             background-color: #fff;
             border-radius: 10px;
+
+            font-size: 0;
+            line-height: 0;
         }
     }
 

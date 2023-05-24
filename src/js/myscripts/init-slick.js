@@ -6,18 +6,26 @@ if (document.querySelector('.s10-sl')) {
         arrows: false,
         dots: true,
         slidesToScroll: 1,
-        responsive: [{
+        responsive: [
+            {
                 breakpoint: 1140,
                 settings: {
-                    centerMode: true,
+                    slidesToShow: 4,
                 }
             },
+
             {
-                breakpoint: 600,
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+
+            {
+                breakpoint: 500,
                 settings: {
                     centerMode: false,
                     slidesToShow: 2,
-                    slidesToScroll: 2,
                 }
             }
             // You can unslick at a given breakpoint now by adding:
